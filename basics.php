@@ -1,5 +1,7 @@
 <?php
 
+//Here is the basic steps in php
+
 //This is how to set a cookie in php
 $x = $_GET["x"];
 $y = $_GET["y"];
@@ -33,9 +35,5 @@ setcookie($x , $y ,$expire);
  {
   echo $x = $y;
  }
-
-
-
-
 
 ?>
