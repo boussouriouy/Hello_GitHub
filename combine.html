@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mamadou</title>
+</head>
+<body>
+	<main>
+          <section>
+                <form>
+                    <h2>Simple Order Form</h2>
+
+                     <h4>Type Info</h4>
+                    <input type="text"  placeholder="enter username"><br>
+                    <input type="pasword" placeholder="enter password" >
+
+                    <br>
+
+                    <h4>Sports</h4>
+                    <input type="checkbox" name="Sc">Soccer<br>
+                    <input type="checkbox" name="NBA">Basket<br>
+                    <input type="checkbox" name="T">Tennis<br>
+                    <input type="checkbox" name="G">Golf<br>
+                    <input type="checkbox" name="F">Foot
+                    <br>
+                    <h4>State</h4>
+                    <select>
+
+                         <option value="selected">-select one</option>
+                         <option value="NY">NY</option>
+                         <option value="NJ">NJ</option>
+                         <option value="NX">NX</option>
+                         <option value="PD">PD</option>
+                    </select>
+                    <br>
+                    <h4>One choice</h4>
+                     <!-- Here the name should hold the same for all of them -->
+                    <input type="radio" name="takeone" value="M">M
+                    <input type="radio" name="takeone" value="F">F
+
+                </form>
+          </section>
+          <section>
+            <!-- if your browser is safari then use .ogg if other browsers use .mp4 -->
+                <video height="380" controls>
+                  <source src="mamadou.mp4" type="video/mp4">
+                </video>
+                <audio width="100" controls>
+                  <source src="mas.mp3" type="audio/mp3">
+                </audio>
+          </section>
+
+          <section  id="top-article">
+            <h4>The best articles ever</h4>
+             <article>
+                  <div class="article-image" style="background: url('do.jpeg');"></div>
+                  <h5>Animals</h5>
+                  <p>Please do not eat animals that is not HALLAL</p>
+             </article>
+             <article>
+                  <div class="article-image" style="background: url('k.jpeg');"></div>
+                  <h5>Animals</h5>
+                  <p>Agian Please do not eat that is not hall to you even you  are not muslim</p>
+             </article>
+          </section>
+       </main>
+
+
+       <footer>
+             &copy;2020 &nbsp; &nbsp; Mamadou B Diallo
+       </footer>
+       <style type="text/css">
+       	#top-article{
+ width: 1000px;
+ height: auto;
+	
+}
+
+article{
+	width: 25%;
+	display: inline-block;
+	padding: 5px;
+	margin: 5px;
+	text-align: center;
+	border: 1px solid #000;
+}
+
+.article-image{
+	width: 100%;
+	height: 200px;
+	background-size: cover !important;
+	background-position: center !important;
+}
+       </style>
+ </body>
+ </html>
+
+
+</body>
+</html>
