@@ -1,0 +1,112 @@
+body{
+	background: rgba(200, 100, 50, .5);
+	background-size: cover;
+	margin: 0px;
+	padding: 0px;
+}
+
+header{
+	background: #000;
+	color: white;
+	opacity: .9;
+	height: 100px;
+	border: 1px solid #0e0;
+}
+ 
+header > nav > h2{
+	text-align: center;
+	font-family: bold;
+	border-bottom: 1px dotted #0c0;
+}
+
+ ul{
+	margin: 0px;
+	padding: 0px;
+	list-style: none; 
+}
+
+ul>li{
+	color: white;
+	margin-left: 5px;
+	float: left;
+	font-size: 20px;
+	width: 150px;
+	height: 20px;
+	line-height: 30px;
+	opacity: .8;
+}
+
+ ul > li> a{
+	color: white;
+	text-decoration: none;
+	display: inline-block;
+
+}
+
+ul > li> a:hover{
+	color: green;
+	cursor: pointer;
+}
+
+ul> li> ul> li{
+	display: none;
+}
+
+ul> li:hover ul> li{
+	display: inline-block;
+	background: #000;
+	height: 30px;
+	opacity: .9;
+	
+}
+
+
+
+
+
+/*
+
+body{
+	background: rgba(45, 56, 67, .5);
+	background-size: cover; 
+	margin: 0px;
+}
+
+body > header > h1,h3{
+	color: #00f;
+	margin: 0px;
+	text-align: center;
+}
+
+#main-header{
+	border-bottom: 2px dashed #0f5;
+	margin: 0px;
+}
+
+#top-stories{
+	width: 1000px;
+	margin: auto;
+	margin-top: 15px;
+
+}
+
+article{
+	width: 20%;
+	display: inline-block;
+	border: 1px dashed #0f0;
+	padding: 10px;
+	margin: 10px;
+}
+
+.article-image{
+	width: 100%;
+	height: 200px;
+	background-size: cover !important;
+	background-position: center !important;
+}
+
+#contact-form{
+	padding: 10px;
+	margin: auto;
+	margin-top: 5px;
+}
