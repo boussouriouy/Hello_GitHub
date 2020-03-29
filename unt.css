@@ -1,0 +1,167 @@
+ body{
+	margin: 0px;
+	padding: 0px;
+	border-left: 1px solid green;
+	border-right: 1px solid green;
+}
+
+header{
+	background: black;
+	opacity: .8;
+	height: 100px;
+	margin-bottom: 50px;
+	border-left: 1px solid green;
+	border-right: 1px solid green;
+	border-top: 1px solid green;
+
+
+}
+
+h2{
+	text-align: center;
+	color: white;
+	border-bottom: 2px dashed white;
+
+}
+
+nav{
+	
+	margin: 0px;
+	line-height: -10px;
+}
+
+ul{
+	list-style: none;
+	margin: 0px;
+}
+
+ul li{
+	display: inline-block;
+	margin-right: 40px;
+	margin-top: -8px;
+	font-size: 30px;
+	
+}
+
+ul li a{
+	text-decoration: none;
+	color: white;
+    transition: all 1s, color 3s;
+}
+
+ul li a:hover{
+	color: green;
+	cursor: pointer;
+
+}
+
+input[type="button"]{
+	font-size: 12px;
+	background: white;
+	border: 2px solid;
+	color: black;
+	margin: 20px;
+	transition: all 1s, background 3s;
+}
+
+input[type="button"]:hover{
+	background: green;
+	cursor: pointer;
+	box-shadow: 5px 5px 10px gray;
+}
+
+input[type="button"]:active{
+	opacity: .7;
+}
+
+
+input[type="delete"]{
+	font-size: 12px;
+	background: orange;
+	border-radius: 40px;
+	outline: none;
+	width: 80px;
+	text-align: center;
+	border: none;
+}
+
+input[type="delete"]:hover{
+	background: red;
+	cursor: pointer;
+}
+
+#cover{
+	position: fixed;
+	display: none;
+	z-index: 10;
+	background: gray;
+	opacity: .9;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+}
+
+#box{
+	position: fixed;
+	display: none;
+	background: white;
+	z-index: 10;
+	width: 500px;
+}
+ 
+#head{
+	background:purple;
+	padding: 5px;
+	color: white;
+	font-size: 20px; 
+	text-align: center;
+}
+#body{
+
+	padding: 5px;
+	margin: 5px;
+	font-size-adjust: 15px;
+
+}
+
+#head img{
+	width: 20px;
+	height: 20px;
+    float: right;
+    border: 2px solid;
+    color: black;
+	
+}
+
+#logo{
+	width: 20%;
+	height: 5px;
+    float: left;
+    color: black;
+	background-size: cover;
+
+}
+
+
+#head img:hover{
+	cursor: pointer;
+}
+
+h1{
+	margin: 10px;
+	font-family: cursive;
+	
+}
+footer{
+	background: black;
+	margin-top: 50%;
+	opacity: .8;
+	height: 30px;
+	text-align: center;
+	color: white;
+	border-left: 1px solid green;
+	border-right: 1px solid green;
+	border-bottom: 1px solid green;
+
+}
+
