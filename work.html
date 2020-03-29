@@ -1,0 +1,124 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shorcat icon" type="image/x-icon" href="images/me.jpg">
+
+    <link rel="stylesheet" href="work.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <title>Mamadou</title>
+</head>
+
+<body>
+    <main>
+        <section class="container-1">
+            <h2>Challenge One: DOM Case</h2>
+            <div class="flex-box-1">
+                <div>
+                    <button id="btn-1" class="btn btn-primary">push</button>
+                </div>
+                <div>
+                    <button id="btn-2" class="btn btn-danger">clear</button>
+                </div>
+                <div>
+                    <button id="btn-3" class="btn btn-light">cover</button>
+                </div>
+            </div>
+            <div class="flex-box-1">
+                <div id="flex-1-result"></div>
+            </div>
+            <div id="lay"></div>
+            <div id="box">
+                <div>
+                    <div id="head"></div>
+                    <div id="txt"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container-2">
+            <h2>Challenge Two: Generate Case </h2>
+            <button id="btn-4" class="btn btn-success">Generate</button>
+            <div class="flex-box-2">
+                <div id="flex-2-result"></div>
+            </div>
+        </section>
+
+        <section class="container-3">
+            <h2>Challenge Three: Generate Adds</h2>
+            <button id="btn-5" class="btn btn-dark mr-5">Vadds</button>
+            <button id="btn-6" class="btn btn-warning">Oadds</button>
+            <div class="flex-box-3">
+                <div id="flex-5-rsult"></div>
+            </div>
+            <div class="flex-box-3">
+                <div id="flex-6-rsult"></div>
+            </div>
+        </section>
+
+        <section class="container-4">
+            <h2>Challenge Four: Chnage Colors</h2>
+            <div class="flex-box-4">
+                <button class="btn btn-secondary">Yahoo!</button>
+                <button class="btn btn-light">Google!</button>
+                <button class="btn btn-dark">Facebook!</button>
+                <button class="btn btn-primary">Microsoft!</button>
+            </div>
+            <form action="">
+                <select onchange="ChngClr(this)">
+                    <option value="select_color">colors</option>
+                    <option value="red">Red</option>
+                    <option value="green">Green</option>
+                    <option value="reset">Reset</option>
+                    <option value="random">random</option>
+                </select>
+            </form>
+
+        </section>
+
+        <section class="container-5">
+            <h2>Challenge Five: Jackblack</h2>
+            <h3><span id="mssg">Lest's play</span></h3>
+            <div class="flex-box-55">
+                <div id="box-1">
+                    <h2>You:<span id="y">0</span></h2>
+                </div>
+                <div id="box-2">
+                    <h2>Bot:<span id="b">0</span></h2>
+                </div>
+            </div>
+            <div class="flex-box-5">
+                <div>
+                    <button class="btn btn-primary mr-2" id="btn-h">hit</button>
+                    <button class="btn btn-warning mr-2" id="btn-s">stand</button>
+                    <button class="btn btn-danger" id="btn-d">delete</button>
+                </div>
+            </div>
+            <div class="flex-box-5">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>win</th>
+                            <th>loss</th>
+                            <th>tie</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <td><span id="w">0</span></td>
+                        <td><span id="l">0</span></td>
+                        <td><span id="t">0</span></td>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+
+
+
+    </main>
+    <script src="work.js"></script>
+</body>
+
+</html>

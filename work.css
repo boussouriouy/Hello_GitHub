@@ -1,0 +1,169 @@
+body {
+    background: url('images/image.jpg') no-repeat;
+    background-size: cover;
+}
+
+h2 {
+    color: whitesmoke;
+}
+
+.container-1,
+.container-2,
+.container-3,
+.container-4,
+.container-5 {
+    border: 1px solid white;
+    margin: 0px auto;
+    width: 75%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.flex-box-1 {
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+    flex-direction: row;
+    border: 1px solid salmon;
+}
+
+.flex-box-1 div {
+    display: flex;
+    border: 1px solid black;
+    align-items: center;
+    padding: 5px;
+    color: white;
+}
+
+.flex-box-2 {
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 1px solid greenyellow;
+}
+
+.flex-box-2 img {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border-radius: 100%;
+    border: 1px dotted green;
+    box-shadow: 0px 10px 50px rgb(79, 90, 220);
+}
+
+.flex-box-3 {
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid hotpink;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.flex-box-3 video {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    margin: 5px;
+    box-shadow: 0px 10px 50px rgb(101, 107, 169);
+}
+
+.flex-box-3 audio {
+    border: none;
+    outline: none;
+    width: 200px;
+    height: 30px;
+    margin: 5px;
+    box-shadow: 0px 10px 50px rgb(101, 107, 169);
+}
+
+.flex-box-4 {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    border: 1px solid rgba(6, 222, 242, 0.5);
+    flex-wrap: wrap;
+}
+
+.flex-box-5 {
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid rgba(6, 222, 242, 0.5);
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.flex-box-55 {
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid rgba(6, 222, 242, 0.5);
+    flex-wrap: wrap;
+    padding: 10px;
+    background: url('images/image.jpg');
+}
+
+.flex-box-55 div {
+    border: 1px solid blanchedalmond;
+    padding: 10px;
+    text-align: center;
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+.flex-box-55 img {
+    width: 25%;
+    padding: 10px;
+}
+
+table th,
+td {
+    border: 1px solid blanchedalmond;
+    padding: 5px;
+    text-align: center;
+    color: white;
+}
+
+#lay {
+    display: none;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 10;
+    background-color: blueviolet;
+    opacity: .6;
+}
+
+#box {
+    display: none;
+    position: fixed;
+    width: 550px;
+    background: white;
+    text-align: center;
+    z-index: 10;
+    color: white;
+}
+
+#head {
+    background: purple;
+    font-size: 25px;
+}
+
+#box img {
+    width: 40px;
+    height: 30px;
+    float: right;
+    transition: 1s all;
+}
+
+#box img:hover {
+    cursor: pointer;
+    box-shadow: 0px 10px 50px rgba(6, 222, 242, 0.5);
+}
+
+#txt {
+    color: black;
+    font-size: 15;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
