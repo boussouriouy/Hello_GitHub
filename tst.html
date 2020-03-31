@@ -1,0 +1,65 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="tst.css">
+    <title>Testing file</title>
+</head>
+
+<body>
+    <main>
+        <section>
+            <h1>Student Grade calculation table</h1>
+            <div class="container">
+                <div class="flex-box">
+                    <div>
+                        <input id="inpt1" required placeholder="type your name">
+                        <input id="inpt2" required placeholder="enter your grades">
+                    </div>
+                    <div class="flex-box" id="result">
+
+                        <div id="hd"> </div>
+                        <div id="bdy">
+                            <div>
+                                <table>
+                                    <thead>
+                                        <tr>
+                                            <th>Full Name</th>
+                                            <th>Grades</th>
+                                            <th>Average</th>
+                                            <th>Letter</th>
+                                            <th>High</th>
+                                            <th>Low</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td><input id="rsps1"></td>
+                                            <td><input id="rsps2"></td>
+                                            <td><input id="rsps3"></td>
+                                            <td><input id="rsps4"></td>
+                                            <td><input id="rsps5"></td>
+                                            <td><input id="rsps6"></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="flex-box">
+                    <button class="btn btn-success" id="btn-1">Submit</button>
+                    <button class="btn btn-danger" id="btn-2">Reset</button>
+                </div>
+            </div>
+
+        </section>
+    </main>
+    <script src="tst.js"></script>
+</body>
+
+</html>

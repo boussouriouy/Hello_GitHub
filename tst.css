@@ -1,0 +1,91 @@
+.container {
+    border: 1px solid rgba(232, 12, 34, .5);
+    width: 75%;
+    margin: 0px auto;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.flex-box {
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 1px solid rgba(67, 61, 62, 0.5);
+}
+
+#result {
+    display: none;
+    position: fixed;
+    width: 670px;
+    background: white;
+    z-index: 10;
+    border: 1px solid black;
+    box-shadow: 0px 10px 50px rgba(67, 61, 62, 0.5);
+}
+
+#result #hd {
+    margin-top: -9px;
+    background: purple;
+    width: 100%;
+    font-size: 24px;
+    text-align: center;
+    color: white;
+}
+
+#result #hd img {
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    float: right;
+    border: 5px solid black;
+    box-shadow: 0px 10px 50px rgba(220, 214, 225, 0.5);
+}
+
+#result #hd img:hover {
+    cursor: pointer;
+}
+
+#result #bdy {
+    text-align: center;
+    color: black;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#result #bdy img {
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    box-shadow: 0px 10px 50px rgba(53, 19, 80, 0.5);
+}
+
+.flex-box div input {
+    box-shadow: 0px 10px 50px rgba(137, 47, 211, 0.5);
+    text-align: center;
+}
+
+.flex-box table {
+    box-shadow: 0px 10px 50px rgba(193, 136, 240, 0.5);
+    width: 70%;
+    margin: 0px auto;
+}
+
+.flex-box table,
+th,
+td {
+    border: 1px solid green;
+    text-align: center;
+}
+
+.flex-box table td #rsps3,
+#rsps4,
+#rsps5,
+#rsps6 {
+    width: 50px;
+    height: 40px;
+}
